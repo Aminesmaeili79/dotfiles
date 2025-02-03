@@ -74,6 +74,9 @@ stow i3       # Symlink i3 configurations
 stow nvim     # Symlink Neovim configurations
 stow alacritty # Symlink Alacritty configurations
 
+# Or run the command below to create symlink for all directories and files
+stow -t ~/ .
+
 # To simulate and check what stow will do before actually doing it
 stow -n zsh   # Dry run for Zsh configurations
 ```

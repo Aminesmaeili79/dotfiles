@@ -104,10 +104,6 @@ Suggestions and improvements are welcome!
 - Commit your changes
 - Open a pull request
 
-## 📜 License
-
-[Add your preferred license here, e.g., MIT]
-
 ## 🔗 Additional Resources
 
 - [GNU Stow Manual](https://www.gnu.org/software/stow/manual/stow.html)

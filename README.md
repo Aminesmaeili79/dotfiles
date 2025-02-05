@@ -1,113 +1,127 @@
-# My Linux Dotfiles
+# Dotfiles and Arch Linux Installer
 
-## 🖥️ Environment Overview
+This repository contains my personal dotfiles and a bash script to automate the installation of all my preferred AUR and `pacman` packages on a fresh Arch Linux installation.
 
-These dotfiles configure my personal Linux development and desktop environment, focusing on i3 window manager, Zsh, Neovim, and other productivity tools.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dotfiles Overview](#dotfiles-overview)
+- [Package Lists](#package-lists)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## 📂 Repository Structure
+---
 
-- `.zshrc`: Zsh shell configuration
-- `.zshrc.pre-oh-my-zsh`: Pre-Oh My Zsh configuration
-- `.i3status.conf`: i3status bar configuration
-- `.config/`:
-  - `alacritty/`: Alacritty terminal emulator settings
-  - `i3/`: i3 window manager configuration
-  - `nitrogen/`: Wallpaper management settings
-  - `nvim/`: Neovim configuration
-  - `picom.conf`: Picom (X11 compositor) configuration
-- `.zsh/zsh-autosuggestions/`: Zsh autosuggestions plugin
+## Introduction
 
-## 🛠️ Key Tools and Applications
+This repository is designed to simplify the setup of a new Arch Linux system by providing:
+- **Dotfiles**: Configuration files for various tools and applications.
+- **Installer Script**: A bash script (`installer.sh`) to install all my preferred AUR and `pacman` packages.
 
-- **Window Manager**: i3
-- **Terminal**: Alacritty
-- **Shell**: Zsh (with Oh My Zsh)
-- **Text Editor**: Neovim
-- **Compositor**: Picom
-- **Wallpaper Manager**: Nitrogen
+---
 
-## 🚀 Installation
+## Features
+
+- **Dotfiles**: Includes configurations for:
+  - Shell (`zsh`, `oh-my-zsh`, `p10k`)
+  - Terminal emulator (`alacritty`)
+  - Window manager (`i3`)
+  - Text editor (`nvim`)
+  - And more!
+- **Installer Script**: Automates the installation of:
+  - All `pacman` packages listed in `pkglist.txt`.
+  - All AUR packages listed in `aurpkglist.txt`.
+
+---
+
+## Installation
 
 ### Prerequisites
+- A fresh Arch Linux installation.
+- `git` installed (`sudo pacman -S git`).
 
-- Git
-- Zsh
-- Oh My Zsh
-- Neovim
-- i3 window manager
-- [Recommended] GNU Stow
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/dotfiles.git ~/dotfiles
+   cd ~/dotfiles
+   ```
+2. Make the installer script executable:
+   ```bash
+   chmod +x installer.sh
+   ```
+3. Run the installer script:
+   ```bash
+   ./installer.sh
+   ```
 
-### Installation Methods
+## Usage
 
-#### Option 1: Manual Symlinks
+### Dotfiles
+After running the installer script, the dotfiles will be symlinked to their respective locations in your home directory. For example:
+- `~/.zshrc` will point to `~/dotfiles/.zshrc`.
+- `~/.config/alacritty/alacritty.toml` will point to `~/dotfiles/.config/alacritty/alacritty.toml`.
 
-```bash
-git clone https://github.com/[YOUR-USERNAME]/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
+### Installer Script
+The installer script will:
+1. Install all `pacman` packages listed in `pkglist.txt`.
+2. Install all AUR packages listed in `aurpkglist.txt` using an AUR helper like `yay` or `paru`.
 
-# Manually create symlinks
-ln -sf ~/.dotfiles/.zshrc ~/.zshrc
-ln -sf ~/.dotfiles/.i3status.conf ~/.i3status.conf
-ln -sf ~/.dotfiles/.config/nvim ~/.config/nvim
-ln -sf ~/.dotfiles/.config/i3 ~/.config/i3
-ln -sf ~/.dotfiles/.config/alacritty ~/.config/alacritty
-# Add more symlinks as needed
-```
+---
 
-#### Option 2: Using GNU Stow (Recommended)
+## Dotfiles Overview
 
-```bash
-# Install Stow (Debian/Ubuntu)
-sudo apt-get install stow
+Here’s a breakdown of the dotfiles included in this repository:
 
-# Install Stow (Arch Linux)
-sudo pacman -S stow
+- **Shell**:
+  - `.zshrc`: Zsh configuration.
+  - `.p10k.zsh`: Powerlevel10k theme configuration.
+  - `.oh-my-zsh`: Oh My Zsh framework.
+- **Terminal**:
+  - `.config/alacritty/alacritty.toml`: Alacritty terminal emulator configuration.
+- **Window Manager**:
+  - `.config/i3/config`: i3 window manager configuration.
+- **Text Editor**:
+  - `.config/nvim/init.lua`: Neovim configuration.
+- **Other**:
+  - `.gitconfig`: Git configuration.
+  - `.stow-local-ignore`: Stow ignore rules.
 
-# Clone the dotfiles repository
-git clone https://github.com/[YOUR-USERNAME]/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
+---
 
-# Stow will create symlinks for all files in the directory
-# Note: Use --adopt flag to move existing files into the repo if needed
-stow zsh      # Symlink Zsh configurations
-stow i3       # Symlink i3 configurations
-stow nvim     # Symlink Neovim configurations
-stow alacritty # Symlink Alacritty configurations
+## Package Lists
 
-# Or run the command below to create symlink for all directories and files
-stow -t ~/ .
+- **`pkglist.txt`**: Contains a list of `pacman` packages to install.
+- **`aurpkglist.txt`**: Contains a list of AUR packages to install.
 
-# To simulate and check what stow will do before actually doing it
-stow -n zsh   # Dry run for Zsh configurations
-```
+---
 
-#### Stow Tips
-- Each subdirectory should mirror your home directory structure
-- Stow ignores `.git` and other special directories
-- Use `-v` for verbose output
-- Use `-D` to delete symlinks
+## Contributing
 
-## 🔧 Customization
+Contributions are welcome! If you have suggestions or improvements, feel free to:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-Feel free to explore and modify the configurations to suit your workflow. Each configuration file is commented to help you understand and adapt them.
+---
 
-## 💡 Features
+## License
 
-- Consistent development environment setup
-- Efficient window management with i3
-- Enhanced shell experience with Zsh and autosuggestions
-- Customized Neovim configuration
-- Flexible dotfiles management with Stow
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+---
 
-Suggestions and improvements are welcome! 
-- Fork the repository
-- Create a feature branch
-- Commit your changes
-- Open a pull request
+## Contact
 
-## 🔗 Additional Resources
+If you have any questions or need assistance, feel free to reach out:
 
-- [GNU Stow Manual](https://www.gnu.org/software/stow/manual/stow.html)
-- [Dotfiles Management with Stow](https://www.linuxjournal.com/content/managing-dot-files-stow)
+- **Email**: aminesmaeili79@yahoo.com
+
+---
+
+Enjoy your fresh Arch Linux setup! 🚀

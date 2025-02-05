@@ -61,9 +61,8 @@ This repository is designed to simplify the setup of a new Arch Linux system by 
 ## Usage
 
 ### Dotfiles
-After running the installer script, the dotfiles will be symlinked to their respective locations in your home directory. For example:
-- `~/.zshrc` will point to `~/dotfiles/.zshrc`.
-- `~/.config/alacritty/alacritty.toml` will point to `~/dotfiles/.config/alacritty/alacritty.toml`.
+After running the installer script, the dotfiles need to get linked to your home directory. You can run the following command inside the dotfiles repository:
+`stow -t ~/ . `
 
 ### Installer Script
 The installer script will:

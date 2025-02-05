@@ -1,0 +1,13 @@
+asusctl
+chroma
+dmenu-distrotube-git
+google-chrome
+mirage
+oh-my-zsh-git
+postman-bin
+rider
+spotify-player-full
+ttf-meslo-nerd-font-powerlevel10k
+yay
+yay-debug
+zsh-theme-powerlevel10k-git

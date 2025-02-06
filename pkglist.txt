@@ -15,6 +15,7 @@ dotnet-runtime
 dotnet-runtime-8.0
 dotnet-sdk
 dotnet-sdk-8.0
+duf
 efibootmgr
 eza
 fd

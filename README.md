@@ -88,6 +88,7 @@ Here’s a breakdown of the dotfiles included in this repository:
 - **Other**:
   - `.gitconfig`: Git configuration.
   - `.stow-local-ignore`: Stow ignore rules.
+  - `update-pkglists`: Automation for adding changes of the dotfiles and package lists.
 
 ---
 
@@ -106,12 +107,6 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 

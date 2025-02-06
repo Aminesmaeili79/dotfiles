@@ -76,6 +76,7 @@ thefuck
 thunar
 tmux
 ttf-joypixels
+usbutils
 vim
 virt-manager
 virt-viewer

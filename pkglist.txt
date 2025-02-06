@@ -48,7 +48,6 @@ nano
 neofetch
 neovim
 nitrogen
-nmap
 nvidia-open
 nvidia-utils
 openbsd-netcat

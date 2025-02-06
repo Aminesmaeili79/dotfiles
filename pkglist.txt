@@ -21,6 +21,7 @@ eza
 fd
 feh
 firefox
+fprintd
 freerdp
 fzf
 git

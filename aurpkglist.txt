@@ -9,7 +9,6 @@ rider
 spotify-player-full
 ttf-meslo-nerd-font-powerlevel10k
 visual-studio-code-bin
-visual-studio-code-bin-debug
 yay
 yay-debug
 zsh-theme-powerlevel10k-git

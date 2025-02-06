@@ -7,7 +7,6 @@ base
 base-devel
 bat
 bridge-utils
-clang
 cuda
 dhcpcd
 dnsmasq

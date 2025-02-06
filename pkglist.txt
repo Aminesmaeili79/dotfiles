@@ -48,6 +48,7 @@ nano
 neofetch
 neovim
 nitrogen
+nmap
 nvidia-open
 nvidia-utils
 openbsd-netcat
@@ -84,6 +85,7 @@ wayland-protocols
 wget
 wireless_tools
 wireplumber
+wireshark-qt
 wlroots
 wpa_supplicant
 xdg-utils

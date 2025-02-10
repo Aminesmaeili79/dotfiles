@@ -17,5 +17,4 @@ return {
 	"hrsh7th/cmp-path",
 	"hrsh7th/cmp-cmdline",
 	"hrsh7th/nvim-cmp",
-	"mfussenegger/nvim-dap",
 }

@@ -4,7 +4,6 @@ dmenu-distrotube-git
 google-chrome
 mirage
 netcoredbg
-netcoredbg-debug
 oh-my-zsh-git
 postman-bin
 rider

@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias n=nvim
 alias spt=spotify_player
+alias c=clear
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
@@ -195,3 +196,7 @@ eval $(thefuck --alias fk)
 eval "$(zoxide init zsh)"
 
 alias cd="z"
+
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+  tmux attach-session -t default || tmux new-session -s default
+fi

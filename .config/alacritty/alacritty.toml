@@ -11,3 +11,7 @@ padding.x = 10
 padding.y = 10
 
 decorations = "Buttonless"
+
+[terminal.shell]
+program = "/bin/bash"
+args = ["-l", "-c", "~/.tmux/sessions.sh"]

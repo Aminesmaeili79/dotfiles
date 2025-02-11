@@ -63,6 +63,7 @@ pipewire-pulse
 plasma-meta
 plasma-workspace
 playerctl
+pnpm
 python-pygments
 qemu-base
 reflector

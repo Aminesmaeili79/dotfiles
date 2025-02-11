@@ -50,6 +50,7 @@ neofetch
 neovim
 nitrogen
 nmap
+npm
 nvidia-open
 nvidia-utils
 openbsd-netcat

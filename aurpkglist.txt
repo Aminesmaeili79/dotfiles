@@ -2,6 +2,7 @@ asusctl
 chroma
 dmenu-distrotube-git
 google-chrome
+hack-nf-git
 mirage
 netcoredbg
 oh-my-zsh-git

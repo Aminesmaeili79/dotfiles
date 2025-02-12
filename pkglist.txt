@@ -6,6 +6,8 @@ autotiling
 base
 base-devel
 bat
+bluez
+bluez-utils
 bridge-utils
 calibre
 cuda

@@ -8,6 +8,7 @@ netcoredbg
 oh-my-zsh-git
 postman-bin
 rider
+spotify
 spotify-player-full
 ttf-meslo-nerd-font-powerlevel10k
 visual-studio-code-bin

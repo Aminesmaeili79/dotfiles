@@ -41,7 +41,6 @@ iptables-nft
 iwd
 kate
 konsole
-libcurl-gnutls
 libguestfs
 libpulse
 libva-intel-driver

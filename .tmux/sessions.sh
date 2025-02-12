@@ -1,62 +1,62 @@
 #!/bin/bash
 
-# Development session
-if ! tmux has-session -t dev 2>/dev/null; then
-    tmux new-session -d -s dev
-    
-    # Main coding pane split
-    tmux split-window -h -t dev
-    tmux select-pane -t dev:0.0
-    tmux split-window -v -t dev
-    
-    # Set up working directories and tools
-    tmux send-keys -t dev:0.0 'cd ~/projects' C-m 'clear' C-m
-    tmux send-keys -t dev:0.1 'cd ~/projects' C-m 'clear' C-m
-    tmux send-keys -t dev:0.2 'cd ~/projects' C-m 'clear' C-m
-    
+# Error handling
+set -e
+
+# Check if tmux is installed
+if ! command -v tmux >/dev/null 2>&1; then
+  echo "tmux is not installed. Please install it first."
+  exit 1
 fi
 
-# System monitoring session
-if ! tmux has-session -t system 2>/dev/null; then
-    tmux new-session -d -s system
-    
-    # System monitoring with htop
-    tmux send-keys -t system:0 'htop' C-m
-    
-    # Split for system stats
-    tmux split-window -h -t system
-    tmux send-keys -t system:0.1 'neofetch' C-m
-    
+# 1-development session
+if ! tmux has-session -t 1-dev 2>/dev/null; then
+  tmux new-session -d -s 1-dev
+
+  tmux rename-window -t 1-dev:0 'main'
+  tmux send-keys -t 1-dev:0 'cd ~/projects/adaKsi/ 2>/dev/null || mkdir -p ~/projects/adaKsi/' C-m 'clear' C-m
+
+  tmux new-window -t 1-dev:1 -n 'Udemy'
+  tmux send-keys -t 1-dev:1 'cd ~/projects/Udemy/ 2>/dev/null || mkdir -p ~/projects/Udemy/' C-m 'clear' C-m
+
+  tmux new-window -t 1-dev:2 -n 'Websure'
+  tmux send-keys -t 1-dev:2 'cd ~/projects/Websure/ 2>/dev/null || mkdir -p ~/projects/Websure/' C-m 'clear' C-m
+
+  tmux select-window -t 1-dev:0
 fi
 
-# Notes session
-if ! tmux has-session -t notes 2>/dev/null; then
-    tmux new-session -d -s notes
-    
-    # Main notes window
-    tmux send-keys -t notes:0 'cd ~/notes' C-m 'clear' C-m
-    
+# 2-notes session
+if ! tmux has-session -t 2-notes 2>/dev/null; then
+  tmux new-session -d -s 2-notes
+
+  tmux rename-window -t 2-notes:0 'quick-notes'
+  tmux send-keys -t 2-notes:0 'cd ~/notes/quick-notes 2>/dev/null || mkdir -p ~/notes/quick-notes' C-m 'clear' C-m
+
+  tmux new-window -t 2-notes:1 -n 'todos'
+  tmux send-keys -t 2-notes:1 'cd ~/notes/todos 2>/dev/null || mkdir -p ~/notes/todos' C-m 'clear' C-m
+
+  tmux new-window -t 2-notes:2 -n 'documentation'
+  tmux send-keys -t 2-notes:2 'cd ~/notes/docs 2>/dev/null || mkdir -p ~/notes/docs' C-m 'clear' C-m
+
+  tmux select-window -t 2-notes:0
 fi
 
-# Spotify session (assuming you're using spotify-tui or similar)
-if ! tmux has-session -t spotify 2>/dev/null; then
-    tmux new-session -d -s spotify
-    
-    # Main spotify-tui window
-    tmux send-keys -t spotify:0 'spt' C-m  # Replace with your preferred music player command
-    
+# 3-spotify session
+if ! tmux has-session -t 3-spotify 2>/dev/null; then
+  tmux new-session -d -s 3-spotify
+
+  tmux send-keys -t 3-spotify 'spt' C-m
 fi
 
-# Dotfiles session
-if ! tmux has-session -t dotfiles 2>/dev/null; then
-    tmux new-session -d -s dotfiles
-    
-    # Main dotfiles window
-    tmux send-keys -t dotfiles:0 'cd ~/Desktop/dotfiles' C-m 'clear' C-m
-    
+# 4-dotfiles session
+if ! tmux has-session -t 4-dotfiles 2>/dev/null; then
+  tmux new-session -d -s 4-dotfiles
+
+  tmux rename-window -t 4-dotfiles:0 'dotfiles'
+  tmux send-keys -t 4-dotfiles:0 'cd ~/Desktop/dotfiles 2>/dev/null || mkdir -p ~/Desktop/dotfiles' C-m 'clear' C-m
 fi
 
-# Attach to dev session by default if no session is specified
+# Attach to 1-dev session by default if no session is specified
 if [ -z "$TMUX" ]; then
-    tmux attach-session -t dev
+  tmux attach-session -t 1-dev
 fi

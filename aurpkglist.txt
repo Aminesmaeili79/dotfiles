@@ -10,6 +10,7 @@ postman-bin
 rider
 ttf-meslo-nerd-font-powerlevel10k
 visual-studio-code-bin
+xorg-font-utils
 yay
 yay-debug
 zsh-theme-powerlevel10k-git

@@ -208,9 +208,9 @@ exec_always picom --config ~/.config/picom.conf
 exec_always --no-startup-id autotiling
 
 # Media player controls
-bindsym XF86AudioPlay exec --no-startup-id playerctl -p spotify_player play-pause
-bindsym XF86AudioNext exec --no-startup-id playerctl -p spotify_player next
-bindsym XF86AudioPrev exec --no-startup-id playerctl -p spotify_player previous
+bindsym XF86AudioPlay exec --no-startup-id playerctl -p spotify play-pause
+bindsym XF86AudioNext exec --no-startup-id playerctl -p spotify next
+bindsym XF86AudioPrev exec --no-startup-id playerctl -p spotify previous
 
 # keybinding to lock screen
 bindsym $mod+Ctrl+x exec "i3lock -c 000000"

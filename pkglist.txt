@@ -75,7 +75,6 @@ remmina
 rofi
 smartmontools
 sof-firmware
-spotify-launcher
 stow
 stylua
 swtpm

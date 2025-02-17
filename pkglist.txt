@@ -147,3 +147,5 @@ zip
 zoxide
 zram-generator
 zsh
+zsh-autocomplete
+zsh-completions

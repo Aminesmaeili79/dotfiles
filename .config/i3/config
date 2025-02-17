@@ -206,6 +206,7 @@ client.background       #0A0A0A
 exec_always nitrogen --restore
 exec_always picom --config ~/.config/picom.conf
 exec_always --no-startup-id autotiling
+exec_always --no-startup-id dunst
 
 # Media player controls
 bindsym XF86AudioPlay exec --no-startup-id playerctl -p spotify play-pause

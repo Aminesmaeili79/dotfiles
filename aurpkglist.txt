@@ -9,6 +9,7 @@ oh-my-zsh-git
 persian-fonts
 postman-bin
 rider
+spotify
 ttf-meslo-nerd-font-powerlevel10k
 visual-studio-code-bin
 yay

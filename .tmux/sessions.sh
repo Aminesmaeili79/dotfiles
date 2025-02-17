@@ -41,19 +41,12 @@ if ! tmux has-session -t 2-notes 2>/dev/null; then
   tmux select-window -t 2-notes:0
 fi
 
-# 3-spotify session
-if ! tmux has-session -t 3-spotify 2>/dev/null; then
-  tmux new-session -d -s 3-spotify
+# 3-dotfiles session
+if ! tmux has-session -t 3-dotfiles 2>/dev/null; then
+  tmux new-session -d -s 3-dotfiles
 
-  tmux send-keys -t 3-spotify 'spt' C-m
-fi
-
-# 4-dotfiles session
-if ! tmux has-session -t 4-dotfiles 2>/dev/null; then
-  tmux new-session -d -s 4-dotfiles
-
-  tmux rename-window -t 4-dotfiles:0 'dotfiles'
-  tmux send-keys -t 4-dotfiles:0 'cd ~/Desktop/dotfiles 2>/dev/null || mkdir -p ~/Desktop/dotfiles' C-m 'clear' C-m
+  tmux rename-window -t 3-dotfiles:0 'dotfiles'
+  tmux send-keys -t 3-dotfiles:0 'cd ~/Desktop/dotfiles 2>/dev/null || mkdir -p ~/Desktop/dotfiles' C-m 'clear' C-m
 fi
 
 # Attach to 1-dev session by default if no session is specified

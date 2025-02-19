@@ -1,6 +1,7 @@
 asusctl
 chroma
 dmenu-distrotube-git
+extundelete
 google-chrome
 hack-nf-git
 mirage

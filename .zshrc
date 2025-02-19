@@ -115,6 +115,8 @@ alias spt=spotify_player
 alias c=clear
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+#source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -185,7 +187,8 @@ export BAT_THEME=tokyonight_night
 
 # ---- Eza (better ls) -----
 
-alias ls="eza --icons=always --color=always --long --git --no-filesize --no-time --no-user --no-permissions"
+alias ls="eza --icons=always --color=always --no-filesize --no-time --no-user --no-permissions"
+alias la="eza --icons=always --color=always --long --git"
 
 # ---- TheFuck -----
 
@@ -201,3 +204,5 @@ alias cd="z"
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
   tmux attach-session -t default || tmux new-session -s default
 fi
+
+alias dr="dotnet run"

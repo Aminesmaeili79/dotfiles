@@ -80,6 +80,7 @@ stow
 stylua
 swtpm
 telegram-desktop
+testdisk
 thefuck
 thunar
 tmux

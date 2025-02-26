@@ -1,0 +1,94 @@
+#!/bin/bash
+
+# Set path to your dotfiles directory
+DOTFILES_DIR="/home/l33t/Desktop/dotfiles"  # Adjust this path to match your setup
+
+# Ensure the dotfiles directory exists
+if [ ! -d "$DOTFILES_DIR" ]; then
+    echo "Dotfiles directory not found at $DOTFILES_DIR"
+    exit 1
+fi
+
+# Create temporary files
+temp_pkg=$(mktemp)
+temp_aur=$(mktemp)
+
+# Get official packages (excluding AUR)
+pacman -Qqen > "$temp_pkg"
+
+# Get AUR packages only
+pacman -Qqem > "$temp_aur"
+
+# Process package lists
+grep -vxFf "$temp_aur" "$temp_pkg" > "$DOTFILES_DIR/pkglist.txt"
+cp "$temp_aur" "$DOTFILES_DIR/aurpkglist.txt"
+
+# Clean up
+rm "$temp_pkg" "$temp_aur"
+
+# Git operations
+# Package lists commit
+if [ -d "$DOTFILES_DIR/.git" ]; then
+    runuser -l l33t -c "cd $DOTFILES_DIR && \
+        \
+        #### Commit pacman (official) package changes ####
+        # Stage only the pkglist.txt file
+        git add pkglist.txt && \
+        \
+        # Extract added and removed package names for pkglist.txt
+        pacman_added=\$(git diff --cached -- pkglist.txt | grep '^+' | grep -v '^+++ ' | sed 's/^+//' | tr '\n' ', ') && \
+        pacman_removed=\$(git diff --cached -- pkglist.txt | grep '^-' | grep -v '^--- ' | sed 's/^-//' | tr '\n' ', ') && \
+        \
+        # Generate commit message for pacman packages
+        if [ -n \"\$pacman_added\" ] || [ -n \"\$pacman_removed\" ]; then \
+            commit_msg=\"auto: update pacman packages\" && \
+            if [ -n \"\$pacman_added\" ]; then \
+                commit_msg=\"\$commit_msg - Added: \${pacman_added::-1}\"; \
+            fi && \
+            if [ -n \"\$pacman_removed\" ]; then \
+                commit_msg=\"\$commit_msg - Removed: \${pacman_removed::-1}\"; \
+            fi && \
+            git commit -m \"\$commit_msg\" || true; \
+        else \
+            echo 'No pacman package changes to commit.'; \
+        fi && \
+        \
+        #### Commit AUR package changes ####
+        # Stage only the aurpkglist.txt file
+        git add aurpkglist.txt && \
+        \
+        # Extract added and removed package names for aurpkglist.txt
+        aur_added=\$(git diff --cached -- aurpkglist.txt | grep '^+' | grep -v '^+++ ' | sed 's/^+//' | tr '\n' ', ') && \
+        aur_removed=\$(git diff --cached -- aurpkglist.txt | grep '^-' | grep -v '^--- ' | sed 's/^-//' | tr '\n' ', ') && \
+        \
+        # Generate commit message for AUR packages
+        if [ -n \"\$aur_added\" ] || [ -n \"\$aur_removed\" ]; then \
+            commit_msg=\"auto: update AUR packages\" && \
+            if [ -n \"\$aur_added\" ]; then \
+                commit_msg=\"\$commit_msg - Added: \${aur_added::-1}\"; \
+            fi && \
+            if [ -n \"\$aur_removed\" ]; then \
+                commit_msg=\"\$commit_msg - Removed: \${aur_removed::-1}\"; \
+            fi && \
+            git commit -m \"\$commit_msg\" || true; \
+        else \
+            echo 'No AUR package changes to commit.'; \
+        fi && \
+        \
+        # Pull remote changes (with rebase) and push local commits.
+        git pull --rebase && git push"
+
+   # Dotfiles commit
+   runuser -l l33t -c "cd $DOTFILES_DIR && \
+        # Stage all changes except package lists
+        git add --all -- . ':!pkglist.txt' ':!aurpkglist.txt' && \
+        \
+        # Check if there are changes to commit
+        if ! git diff --cached --quiet; then \
+            git commit -m 'auto: update dotfiles' && \
+            git pull --rebase && \
+            git push; \
+        else \
+            echo 'No dotfiles changes to commit.'; \
+        fi"
+fi

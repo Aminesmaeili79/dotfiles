@@ -1,0 +1,9 @@
+# .stow-local-ignore
+\.git
+\.gitignore
+^/pkglist\.txt
+^/aurpkglist\.txt
+^/installer\.sh
+^/update-pkglists
+^/README\.md
+\.stow-local-ignore

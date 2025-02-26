@@ -18,4 +18,3 @@ yay
 yay-debug
 zsh-theme-powerlevel10k-git
 zsh-vi-mode
-

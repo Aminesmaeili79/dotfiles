@@ -65,6 +65,7 @@ nvidia-utils
 obsidian
 openbsd-netcat
 openssh
+os-prober
 picom
 pipewire
 pipewire-alsa

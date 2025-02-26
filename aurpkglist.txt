@@ -14,6 +14,7 @@ rider
 spotify
 ttf-meslo-nerd-font-powerlevel10k
 visual-studio-code-bin
+woeusb
 yay
 yay-debug
 zsh-theme-powerlevel10k-git

@@ -14,7 +14,6 @@ rider
 spotify
 ttf-meslo-nerd-font-powerlevel10k
 ventoy-bin
-ventoy-bin-debug
 visual-studio-code-bin
 woeusb
 yay

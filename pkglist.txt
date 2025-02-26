@@ -32,6 +32,7 @@ freerdp
 fzf
 git
 git-delta
+gnome-disk-utility
 godot
 gst-plugin-pipewire
 htop

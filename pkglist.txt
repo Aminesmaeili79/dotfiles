@@ -100,7 +100,6 @@ vulkan-intel
 vulkan-radeon
 wayland-protocols
 wget
-wimlib
 wireless_tools
 wireplumber
 wireshark-qt

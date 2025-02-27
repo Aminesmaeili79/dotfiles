@@ -34,6 +34,7 @@ git
 git-delta
 gnome-disk-utility
 godot
+gparted
 gst-plugin-pipewire
 htop
 i3-wm

@@ -23,7 +23,6 @@ dotnet-sdk-8.0
 duf
 dunst
 efibootmgr
-electron27
 eza
 fd
 feh
@@ -51,7 +50,6 @@ lazygit
 libguestfs
 libpulse
 libva-intel-driver
-libvips
 linux
 linux-firmware
 mono

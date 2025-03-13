@@ -11,6 +11,7 @@ bluez
 bluez-utils
 bridge-utils
 calibre
+chrpath
 cuda
 dhcpcd
 discord
@@ -93,6 +94,7 @@ thunar
 tmux
 tree
 ttf-joypixels
+unixodbc
 unrar
 unzip
 usbutils

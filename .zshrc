@@ -206,3 +206,5 @@ if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
 fi
 
 alias dr="dotnet run"
+
+export PATH="$PATH:$HOME/.dotnet/tools/"

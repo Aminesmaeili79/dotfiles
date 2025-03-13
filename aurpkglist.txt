@@ -5,6 +5,8 @@ dmenu-distrotube-git
 extundelete
 google-chrome
 hack-nf-git
+libldap24
+libldap24-debug
 mirage
 netcoredbg
 oh-my-zsh-git

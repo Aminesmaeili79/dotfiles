@@ -53,7 +53,6 @@ libpulse
 libva-intel-driver
 linux
 linux-firmware
-mingw-w64-gcc
 mono
 mpv
 nano
@@ -66,7 +65,6 @@ nvidia-open
 nvidia-utils
 obsidian
 openbsd-netcat
-opencl-headers
 openssh
 os-prober
 picom

@@ -6,8 +6,8 @@ extundelete
 google-chrome
 hack-nf-git
 mirage
+msodbcsql
 mssql-server
-mssql-server-debug
 netcoredbg
 oh-my-zsh-git
 persian-fonts

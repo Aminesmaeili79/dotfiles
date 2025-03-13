@@ -5,9 +5,9 @@ dmenu-distrotube-git
 extundelete
 google-chrome
 hack-nf-git
-libldap24
-libldap24-debug
 mirage
+mssql-server
+mssql-server-debug
 netcoredbg
 oh-my-zsh-git
 persian-fonts

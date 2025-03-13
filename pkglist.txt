@@ -48,8 +48,6 @@ iwd
 kate
 konsole
 lazygit
-libatomic_ops
-libc++
 libguestfs
 libpulse
 libva-intel-driver
@@ -68,7 +66,6 @@ nvidia-utils
 obsidian
 openbsd-netcat
 openssh
-openssl-1.1
 os-prober
 picom
 pipewire
@@ -86,7 +83,6 @@ remmina
 rofi
 smartmontools
 sof-firmware
-sssd
 stow
 stylua
 swtpm

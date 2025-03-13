@@ -8,6 +8,7 @@ hack-nf-git
 mirage
 msodbcsql
 mssql-server
+mssql-tools
 netcoredbg
 oh-my-zsh-git
 persian-fonts

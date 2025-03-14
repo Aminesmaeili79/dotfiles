@@ -1,5 +1,6 @@
 alacritty
 archiso
+arduino-ide
 ark
 aspnet-runtime
 aspnet-runtime-8.0

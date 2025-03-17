@@ -17,6 +17,8 @@ dbeaver
 dhcpcd
 discord
 dnsmasq
+docker
+docker-compose
 dolphin
 dotnet-runtime
 dotnet-runtime-8.0

@@ -33,6 +33,7 @@ feh
 firefox
 foremost
 freerdp
+fuse-overlayfs
 fzf
 git
 git-delta

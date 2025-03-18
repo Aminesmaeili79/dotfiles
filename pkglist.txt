@@ -55,6 +55,7 @@ konsole
 lazygit
 libguestfs
 libpulse
+libusb-compat
 libva-intel-driver
 linux
 linux-firmware

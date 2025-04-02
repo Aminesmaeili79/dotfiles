@@ -17,10 +17,13 @@ if ! tmux has-session -t 1-dev 2>/dev/null; then
   tmux send-keys -t 1-dev:0 'cd ~/Desktop/projects/' C-m 'clear' C-m
 
   tmux new-window -t 1-dev:1 -n 'Udemy'
-  tmux send-keys -t 1-dev:1 'cd ~/Desktop/projects/' C-m 'clear' C-m
+  tmux send-keys -t 1-dev:1 'cd ~/Desktop/projects/Udemy/' C-m 'clear' C-m
 
   tmux new-window -t 1-dev:2 -n 'Websure'
-  tmux send-keys -t 1-dev:2 'cd ~/Desktop/projects/' C-m 'clear' C-m
+  tmux send-keys -t 1-dev:2 'cd ~/Desktop/projects/Websure/' C-m 'clear' C-m
+
+  tmux new-window -t 1-dev:3 -n 'Personal'
+  tmux send-keys -t 1-dev:3 'cd ~/Desktop/projects/Personal/' C-m 'clear' C-m
 
   tmux select-window -t 1-dev:0
 fi
@@ -30,7 +33,7 @@ if ! tmux has-session -t 2-workspace 2>/dev/null; then
   tmux new-session -d -s 2-workspace
 
   tmux rename-window -t 2-workspace:0 'notes'
-  tmux send-keys -t 2-workspace:0 'cd ~/notes 2>/dev/null || mkdir -p ~/notes' C-m 'clear' C-m
+  tmux send-keys -t 2-workspace:0 'cd ~ 2>/dev/null || mkdir -p ~/' C-m 'clear' C-m
 
   tmux new-window -t 2-workspace:1 -n 'workspace-1'
   tmux send-keys -t 2-workspace:1 'cd ~' C-m 'clear' C-m

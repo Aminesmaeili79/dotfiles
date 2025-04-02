@@ -19,7 +19,6 @@ ttf-meslo-nerd-font-powerlevel10k
 upscayl-bin
 ventoy-bin
 visual-studio-code-bin
-webstorm
 woeusb
 yay
 yay-debug

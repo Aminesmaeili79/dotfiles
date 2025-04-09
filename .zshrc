@@ -207,4 +207,6 @@ fi
 
 alias dr="dotnet run"
 
+alias webstorm="/opt/WebStorm-243.26053.12/bin/webstorm.sh"
+
 export PATH="$PATH:$HOME/.dotnet/tools/"

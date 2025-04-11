@@ -100,7 +100,6 @@ thefuck
 thunar
 tmux
 tree
-ttf-joypixels
 unrar
 unzip
 usbutils

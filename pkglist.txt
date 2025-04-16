@@ -87,7 +87,6 @@ podman
 podman-docker
 python-pygments
 qemu-base
-qt5-tools
 reflector
 remmina
 rofi

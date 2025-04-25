@@ -2,7 +2,6 @@ aseprite
 asusctl
 chroma
 colorpicker
-colorpicker-debug
 dmenu-distrotube-git
 extundelete
 google-chrome

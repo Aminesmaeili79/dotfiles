@@ -12,7 +12,6 @@ bluez
 bluez-utils
 bridge-utils
 calibre
-cuda
 dbeaver
 dhcpcd
 discord

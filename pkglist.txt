@@ -84,12 +84,12 @@ playerctl
 pnpm
 podman
 podman-docker
-python-build
-python-installer
+python-cheetah3
+python-distro
+python-gitpython
 python-pygments
-python-pytest
-python-setuptools
-python-wheel
+python-pymongo
+python-yaml
 qemu-base
 reflector
 remmina
@@ -165,6 +165,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xterm
+yaml-cpp
 zip
 zoxide
 zram-generator

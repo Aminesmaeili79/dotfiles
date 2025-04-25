@@ -15,6 +15,7 @@ nodejs-live-server
 oh-my-zsh-git
 persian-fonts
 postman-bin
+python-retry
 rider
 simplescreenrecorder
 simplescreenrecorder-debug

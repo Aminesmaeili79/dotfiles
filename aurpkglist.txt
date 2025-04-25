@@ -7,8 +7,8 @@ extundelete
 google-chrome
 hack-nf-git
 mirage
-mongosh-bin
-mongosh-bin-debug
+mongodb-bin
+mongodb-bin-debug
 msodbcsql
 mssql-server
 mssql-tools

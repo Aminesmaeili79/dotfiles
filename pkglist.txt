@@ -84,7 +84,12 @@ playerctl
 pnpm
 podman
 podman-docker
+python-build
+python-installer
 python-pygments
+python-pytest
+python-setuptools
+python-wheel
 qemu-base
 reflector
 remmina

@@ -59,6 +59,7 @@ libusb-compat
 libva-intel-driver
 linux
 linux-firmware
+mariadb
 mono
 mpv
 nano

@@ -64,6 +64,7 @@ mono
 mpv
 nano
 neofetch
+neovim
 nitrogen
 nmap
 npm

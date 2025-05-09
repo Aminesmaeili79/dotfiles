@@ -85,6 +85,7 @@ playerctl
 pnpm
 podman
 podman-docker
+postgresql
 python-pygments
 qemu-base
 reflector

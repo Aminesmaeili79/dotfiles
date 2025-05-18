@@ -87,6 +87,7 @@ podman
 podman-docker
 postgresql
 python-pygments
+python-pyqt5
 qemu-base
 reflector
 remmina

@@ -210,8 +210,3 @@ alias dr="dotnet run"
 alias webstorm="/opt/WebStorm-243.26053.12/bin/webstorm.sh"
 
 export PATH="$PATH:$HOME/.dotnet/tools/"
-
-xrandr \
-  --output DP-4   --mode 3200x2000 --pos    0x0 --primary \
-  --output HDMI-0 --mode 1920x1080 --scale-from 3200x2000 --pos 3200x0
-export PATH=$PATH:$HOME/.dotnet

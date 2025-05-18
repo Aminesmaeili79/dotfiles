@@ -70,6 +70,7 @@ nmap
 npm
 nvidia-open
 nvidia-utils
+obs-studio
 obsidian
 openbsd-netcat
 openssh

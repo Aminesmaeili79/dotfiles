@@ -86,6 +86,7 @@ pnpm
 podman
 podman-docker
 postgresql
+proton-vpn-gtk-app
 python-pygments
 python-pyqt5
 qemu-base

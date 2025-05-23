@@ -112,6 +112,7 @@ virt-viewer
 vulkan-intel
 vulkan-radeon
 wayland-protocols
+webkit2gtk-4.1
 wget
 wireless_tools
 wireplumber

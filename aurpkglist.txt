@@ -1,6 +1,8 @@
 aseprite
 asusctl
 chroma
+cloudflare-warp-bin
+cloudflare-warp-bin-debug
 colorpicker
 dmenu-distrotube-git
 extundelete

@@ -1,8 +1,6 @@
 aseprite
 asusctl
 chroma
-cloudflare-warp-bin
-cloudflare-warp-bin-debug
 colorpicker
 dmenu-distrotube-git
 extundelete
@@ -28,6 +26,7 @@ ttf-meslo-nerd-font-powerlevel10k
 upscayl-bin
 ventoy-bin
 visual-studio-code-bin
+warp-gui
 warp-terminal
 woeusb
 yay

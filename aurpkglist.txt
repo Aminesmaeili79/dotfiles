@@ -29,7 +29,6 @@ visual-studio-code-bin
 warp-gui
 warp-terminal
 warpgui-bin
-warpgui-bin-debug
 woeusb
 yay
 yay-debug

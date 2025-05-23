@@ -11,6 +11,7 @@ mongodb-bin
 msodbcsql
 mssql-server
 mssql-tools
+neofetch
 netcoredbg
 nodejs-live-server
 oh-my-zsh-git

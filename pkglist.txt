@@ -113,6 +113,7 @@ vulkan-intel
 vulkan-radeon
 wayland-protocols
 wget
+wireguard-tools
 wireless_tools
 wireplumber
 wireshark-qt

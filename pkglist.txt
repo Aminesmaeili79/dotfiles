@@ -63,7 +63,6 @@ mariadb
 mono
 mpv
 nano
-neofetch
 neovim
 nitrogen
 nmap

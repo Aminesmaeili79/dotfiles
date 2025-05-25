@@ -74,6 +74,7 @@ nvidia-utils
 obs-studio
 obsidian
 openbsd-netcat
+opencl-nvidia
 openssh
 os-prober
 picom

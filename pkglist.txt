@@ -41,6 +41,7 @@ gnome-disk-utility
 godot
 gparted
 gst-plugin-pipewire
+hashcat
 htop
 i3-wm
 i3blocks
@@ -53,7 +54,6 @@ iwd
 kate
 konsole
 lazygit
-libappindicator-gtk3
 libguestfs
 libpulse
 libusb-compat
@@ -88,7 +88,6 @@ podman
 podman-docker
 postgresql
 proton-vpn-gtk-app
-python-blinker
 python-pygments
 python-pyqt5
 qemu-base
@@ -100,7 +99,6 @@ sof-firmware
 stow
 stylua
 swtpm
-systemd-resolvconf
 telegram-desktop
 testdisk
 thefuck
@@ -117,6 +115,7 @@ vulkan-intel
 vulkan-radeon
 wayland-protocols
 wget
+wifite
 wireguard-tools
 wireless_tools
 wireplumber

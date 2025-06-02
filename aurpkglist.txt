@@ -1,5 +1,6 @@
 aseprite
 asusctl
+awsvpnclient
 chroma
 colorpicker
 dmenu-distrotube-git

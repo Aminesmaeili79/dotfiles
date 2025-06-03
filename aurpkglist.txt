@@ -2,7 +2,6 @@ aseprite
 asusctl
 awsvpnclient
 beekeeper-studio
-beekeeper-studio-debug
 chroma
 colorpicker
 dmenu-distrotube-git
@@ -18,6 +17,7 @@ neofetch
 netcoredbg
 nodejs-live-server
 oh-my-zsh-git
+outlook-for-linux-bin
 persian-fonts
 postman-bin
 rider
@@ -25,6 +25,8 @@ simplescreenrecorder
 simplescreenrecorder-debug
 slack-desktop
 spotify
+teams
+teams-debug
 ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k
 upscayl-bin

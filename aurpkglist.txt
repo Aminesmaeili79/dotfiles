@@ -1,6 +1,8 @@
 aseprite
 asusctl
 awsvpnclient
+beekeeper-studio
+beekeeper-studio-debug
 chroma
 colorpicker
 dmenu-distrotube-git
@@ -21,6 +23,7 @@ postman-bin
 rider
 simplescreenrecorder
 simplescreenrecorder-debug
+slack-desktop
 spotify
 ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k

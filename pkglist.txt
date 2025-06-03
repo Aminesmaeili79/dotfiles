@@ -26,6 +26,7 @@ dotnet-sdk-8.0
 duf
 dunst
 efibootmgr
+electron31
 eza
 fd
 feh
@@ -59,6 +60,7 @@ libguestfs
 libpulse
 libusb-compat
 libva-intel-driver
+libxcrypt-compat
 linux
 linux-firmware
 mariadb

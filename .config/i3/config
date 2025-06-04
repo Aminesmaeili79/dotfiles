@@ -203,7 +203,7 @@ client.urgent           #5C0000 #800000 #FFFFFF #BF0000   #900000
 client.placeholder      #0A0A0A #101010 #CCCCCC #1C1C1C   #0C0C0C
 client.background       #0A0A0A
 
-exec_always nitrogen --restore
+exec --no-startup-id nitrogen --restore
 exec_always picom --config ~/.config/picom.conf
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id dunst

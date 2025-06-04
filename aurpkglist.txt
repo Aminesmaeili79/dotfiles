@@ -4,6 +4,7 @@ awsvpnclient
 beekeeper-studio
 chroma
 colorpicker
+cursor-bin
 dmenu-distrotube-git
 extundelete
 google-chrome
@@ -26,7 +27,6 @@ simplescreenrecorder-debug
 slack-desktop
 spotify
 teams
-teams-debug
 ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k
 upscayl-bin

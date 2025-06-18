@@ -6,6 +6,7 @@ beekeeper-studio
 chroma
 colorpicker
 cursor-bin
+debtap
 dmenu-distrotube-git
 extundelete
 google-chrome

@@ -1,3 +1,5 @@
+apple-music-desktop
+apple-music-desktop-debug
 aseprite
 asusctl
 awsvpnclient

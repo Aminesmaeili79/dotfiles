@@ -83,7 +83,6 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
-pkgfile
 plasma-meta
 plasma-workspace
 playerctl

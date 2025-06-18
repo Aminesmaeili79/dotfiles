@@ -26,6 +26,7 @@ dotnet-sdk-8.0
 duf
 dunst
 efibootmgr
+electron
 eza
 fd
 feh

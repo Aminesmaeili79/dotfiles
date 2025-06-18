@@ -36,6 +36,7 @@ warp-gui
 warp-terminal
 warpgui-bin
 woeusb
+xf86-video-vmware
 yay
 yay-debug
 zsh-theme-powerlevel10k-git

@@ -9,8 +9,6 @@ cursor-bin
 debtap
 dmenu-distrotube-git
 extundelete
-gdbuspp
-gdbuspp-debug
 google-chrome
 hack-nf-git
 mirage
@@ -22,6 +20,8 @@ neofetch
 netcoredbg
 nodejs-live-server
 oh-my-zsh-git
+openvpn3
+openvpn3-debug
 outlook-for-linux-bin
 persian-fonts
 postman-bin

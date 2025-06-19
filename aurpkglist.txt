@@ -9,6 +9,8 @@ cursor-bin
 debtap
 dmenu-distrotube-git
 extundelete
+gdbuspp
+gdbuspp-debug
 google-chrome
 hack-nf-git
 mirage

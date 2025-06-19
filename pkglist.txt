@@ -62,7 +62,6 @@ libva-intel-driver
 linux
 linux-firmware
 mariadb
-meson
 mono
 mpv
 nano
@@ -92,8 +91,10 @@ podman
 podman-docker
 postgresql
 proton-vpn-gtk-app
+python-docutils
 python-pygments
 python-pyqt5
+python-systemd
 qemu-base
 reflector
 remmina

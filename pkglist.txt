@@ -11,6 +11,7 @@ bat
 bluez
 bluez-utils
 bridge-utils
+brightnessctl
 calibre
 dbeaver
 dhcpcd

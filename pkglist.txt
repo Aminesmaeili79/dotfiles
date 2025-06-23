@@ -13,6 +13,7 @@ bluez-utils
 bridge-utils
 brightnessctl
 calibre
+code
 dbeaver
 dhcpcd
 discord

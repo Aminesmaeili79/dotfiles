@@ -76,6 +76,8 @@ nvidia-utils
 nvm
 obs-studio
 obsidian
+ollama
+ollama-cuda
 openbsd-netcat
 opencl-nvidia
 openssh

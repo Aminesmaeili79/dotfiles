@@ -28,6 +28,7 @@ rider
 simplescreenrecorder
 simplescreenrecorder-debug
 slack-desktop
+spotify
 teams
 ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k

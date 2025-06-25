@@ -57,6 +57,7 @@ iwd
 kate
 konsole
 lazygit
+libcurl-gnutls
 libguestfs
 libpulse
 libusb-compat

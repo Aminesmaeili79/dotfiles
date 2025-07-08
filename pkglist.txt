@@ -13,6 +13,7 @@ bluez-utils
 bridge-utils
 brightnessctl
 calibre
+cargo-about
 dbeaver
 dhcpcd
 discord
@@ -120,6 +121,7 @@ virt-manager
 virt-viewer
 vulkan-intel
 vulkan-radeon
+vulkan-validation-layers
 wayland-protocols
 wget
 wifite

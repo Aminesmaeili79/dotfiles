@@ -216,3 +216,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias awsvpn='cd /opt/awsvpnclient/ && ./"AWS VPN Client"'
+
+export ELECTRON_ENABLE_LOGGING=true
+export ELECTRON_OZONE_PLATFORM_HINT=x11
+slack --disable-gpu
+

@@ -95,8 +95,13 @@ podman
 podman-docker
 postgresql
 proton-vpn-gtk-app
+python-argcomplete
+python-click
+python-orjson
+python-pefile
 python-pygments
 python-pyqt5
+python-setuptools-scm
 qemu-base
 reflector
 remmina

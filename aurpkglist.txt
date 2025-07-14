@@ -24,6 +24,7 @@ openvpn3
 outlook-for-linux-bin
 persian-fonts
 postman-bin
+python-setuptools-reproducible
 rider
 simplescreenrecorder
 simplescreenrecorder-debug

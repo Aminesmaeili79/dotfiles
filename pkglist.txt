@@ -1,3 +1,4 @@
+7zip
 alacritty
 archiso
 arduino-ide
@@ -8,10 +9,12 @@ autotiling
 base
 base-devel
 bat
+blueprint-compiler
 bluez
 bluez-utils
 bridge-utils
 brightnessctl
+cabextract
 calibre
 dbeaver
 dhcpcd
@@ -37,12 +40,15 @@ foremost
 freerdp
 fuse-overlayfs
 fzf
+gamemode
 git
 git-delta
 gnome-disk-utility
 godot
 gparted
 gst-plugin-pipewire
+gtk4
+gtksourceview5
 hashcat
 hcxtools
 htop
@@ -50,6 +56,7 @@ i3-wm
 i3blocks
 i3lock
 i3status
+imagemagick
 intel-media-driver
 intel-ucode
 iptables-nft
@@ -57,7 +64,9 @@ iwd
 kate
 konsole
 lazygit
+libadwaita
 libguestfs
+libportal-gtk4
 libpulse
 libusb-compat
 libva-intel-driver
@@ -95,6 +104,7 @@ podman
 podman-docker
 postgresql
 proton-vpn-gtk-app
+python-pycurl
 python-pygments
 python-pyqt5
 qemu-base
@@ -121,6 +131,7 @@ virt-viewer
 vulkan-intel
 vulkan-radeon
 wayland-protocols
+webkit2gtk
 wget
 wifite
 wine

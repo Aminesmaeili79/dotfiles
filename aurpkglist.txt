@@ -43,6 +43,5 @@ xf86-video-vmware
 yay
 yay-debug
 zed-git
-zed-git-debug
 zsh-theme-powerlevel10k-git
 zsh-vi-mode

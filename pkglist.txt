@@ -123,6 +123,7 @@ vulkan-radeon
 wayland-protocols
 wget
 wifite
+wine
 wireguard-tools
 wireless_tools
 wireplumber

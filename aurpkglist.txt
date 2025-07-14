@@ -3,6 +3,7 @@ aseprite
 asusctl
 awsvpnclient
 beekeeper-studio
+bottles
 chroma
 colorpicker
 cursor-bin
@@ -11,7 +12,6 @@ dmenu-distrotube-git
 extundelete
 google-chrome
 hack-nf-git
-icoextract
 mirage
 mongodb-bin
 msodbcsql
@@ -23,12 +23,8 @@ nodejs-live-server
 oh-my-zsh-git
 openvpn3
 outlook-for-linux-bin
-patool
 persian-fonts
 postman-bin
-python-fvs
-python-pathvalidate
-python-steamgriddb
 rider
 simplescreenrecorder
 simplescreenrecorder-debug
@@ -40,7 +36,6 @@ ttf-meslo-nerd-font-powerlevel10k
 upscayl-bin
 ventoy-bin
 visual-studio-code-bin
-vkbasalt-cli
 warp-gui
 warp-terminal
 warpgui-bin

@@ -17,6 +17,7 @@ dbeaver
 dhcpcd
 discord
 dnsmasq
+docker
 docker-buildx
 docker-compose
 dolphin

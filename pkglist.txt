@@ -92,7 +92,6 @@ plasma-workspace
 playerctl
 pnpm
 podman
-podman-docker
 postgresql
 proton-vpn-gtk-app
 python-pygments

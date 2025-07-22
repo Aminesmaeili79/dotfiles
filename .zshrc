@@ -219,5 +219,3 @@ alias awsvpn='cd /opt/awsvpnclient/ && ./"AWS VPN Client"'
 
 export ELECTRON_ENABLE_LOGGING=true
 export ELECTRON_OZONE_PLATFORM_HINT=x11
-slack --disable-gpu
-

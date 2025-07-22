@@ -41,6 +41,7 @@ fzf
 git
 git-delta
 gnome-disk-utility
+gobuster
 godot
 gparted
 gst-plugin-pipewire

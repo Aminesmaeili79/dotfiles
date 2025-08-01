@@ -1,4 +1,6 @@
 alacritty
+alsa-tools
+alsa-utils
 archiso
 arduino-ide
 ark

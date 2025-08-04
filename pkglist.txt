@@ -63,6 +63,7 @@ konsole
 lazygit
 libguestfs
 libpulse
+libreoffice-still
 libusb-compat
 libva-intel-driver
 linux

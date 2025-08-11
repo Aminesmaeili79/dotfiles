@@ -87,6 +87,7 @@ openbsd-netcat
 opencl-nvidia
 openssh
 os-prober
+pavucontrol
 picom
 pipewire
 pipewire-alsa

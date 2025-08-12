@@ -116,6 +116,7 @@ testdisk
 thefuck
 thunar
 tmux
+torbrowser-launcher
 tree
 unrar
 unzip

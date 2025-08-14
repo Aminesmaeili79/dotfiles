@@ -108,6 +108,7 @@ remmina
 rofi
 smartmontools
 sof-firmware
+steam
 stow
 stylua
 swtpm

@@ -61,6 +61,9 @@ iwd
 kate
 konsole
 lazygit
+lib32-libxcomposite
+lib32-libxrandr
+lib32-openal
 libguestfs
 libpulse
 libreoffice-still

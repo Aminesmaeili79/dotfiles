@@ -181,6 +181,7 @@ xorg-xwininfo
 xorg-xwud
 xterm
 yarn
+zaproxy
 zip
 zoxide
 zram-generator

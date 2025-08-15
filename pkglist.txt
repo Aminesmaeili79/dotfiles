@@ -2,7 +2,6 @@ alacritty
 alsa-tools
 alsa-utils
 archiso
-arduino-ide
 ark
 aspnet-runtime
 aspnet-runtime-8.0
@@ -40,6 +39,7 @@ foremost
 freerdp
 fuse-overlayfs
 fzf
+gendesk
 git
 git-delta
 gnome-disk-utility
@@ -74,6 +74,7 @@ linux-firmware
 mariadb
 mono
 mpv
+namcap
 nano
 neovim
 nitrogen
@@ -105,6 +106,8 @@ postgresql
 proton-vpn-gtk-app
 python-pygments
 python-pyqt5
+python-pytest-asyncio
+python-pytest-cov
 qemu-base
 reflector
 remmina

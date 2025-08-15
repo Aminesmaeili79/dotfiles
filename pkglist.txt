@@ -3,6 +3,7 @@ alsa-tools
 alsa-utils
 archiso
 ark
+arp-scan
 aspnet-runtime
 aspnet-runtime-8.0
 autotiling

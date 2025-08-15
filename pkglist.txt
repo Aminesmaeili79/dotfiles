@@ -30,6 +30,7 @@ dotnet-sdk-8.0
 duf
 dunst
 efibootmgr
+exploitdb
 eza
 fd
 feh

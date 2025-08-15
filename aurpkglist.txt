@@ -1,5 +1,4 @@
 apple-music-desktop
-arad-fonts
 arduino-ide
 aseprite
 asusctl
@@ -11,7 +10,6 @@ colorpicker
 cursor-bin
 debtap
 dmenu-distrotube-git
-estedad-mad-fonts
 extundelete
 google-chrome
 hack-nf-git
@@ -32,12 +30,10 @@ rider
 simplescreenrecorder
 simplescreenrecorder-debug
 slack-desktop
-sorena-fonts
 spotify
 teams
 ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k
-unixel-fonts
 upscayl-bin
 ventoy-bin
 visual-studio-code-bin

@@ -1,4 +1,5 @@
 apple-music-desktop
+arduino-ide
 aseprite
 asusctl
 awsvpnclient

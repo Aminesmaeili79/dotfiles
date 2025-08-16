@@ -92,6 +92,7 @@ opencl-nvidia
 openssh
 os-prober
 pavucontrol
+perl-image-exiftool
 picom
 pipewire
 pipewire-alsa
@@ -111,6 +112,8 @@ qemu-base
 reflector
 remmina
 rofi
+ruby
+ruby-bundler
 smartmontools
 sof-firmware
 steam

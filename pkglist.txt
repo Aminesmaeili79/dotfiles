@@ -89,7 +89,6 @@ ollama
 ollama-cuda
 openbsd-netcat
 opencl-nvidia
-openmotif
 openssh
 os-prober
 pavucontrol

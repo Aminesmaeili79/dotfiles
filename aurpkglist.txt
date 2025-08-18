@@ -6,7 +6,6 @@ awsvpnclient
 beekeeper-studio
 bottles
 cewl-git
-cewl-git-debug
 chroma
 colorpicker
 cursor-bin

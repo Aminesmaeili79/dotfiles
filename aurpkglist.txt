@@ -44,7 +44,6 @@ warpgui-bin
 woeusb
 xf86-video-vmware
 xwinwrap-git
-xwinwrap-git-debug
 yay
 yay-debug
 zed-git

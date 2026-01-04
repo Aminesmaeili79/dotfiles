@@ -109,6 +109,7 @@ python-pip
 python-pygments
 python-pyqt5
 qemu-base
+reaver
 reflector
 remmina
 rofi

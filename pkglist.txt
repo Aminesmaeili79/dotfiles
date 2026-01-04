@@ -49,6 +49,7 @@ godot
 gparted
 gst-plugin-pipewire
 hashcat
+hcxdumptool
 hcxtools
 htop
 i3-wm

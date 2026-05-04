@@ -12,10 +12,10 @@ base-devel
 bat
 bluez
 bluez-utils
-bridge-utils
 brightnessctl
 bully
 calibre
+code
 dbeaver
 dhcpcd
 discord
@@ -59,7 +59,6 @@ i3lock
 i3status
 intel-media-driver
 intel-ucode
-iptables-nft
 iwd
 kate
 konsole
@@ -79,7 +78,6 @@ mono
 mpv
 nano
 neovim
-nitrogen
 nmap
 npm
 nvidia-open

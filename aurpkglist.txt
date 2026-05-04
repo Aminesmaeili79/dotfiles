@@ -5,6 +5,7 @@ asusctl
 awsvpnclient
 beekeeper-studio
 bottles
+bridge-utils
 cewl-git
 chroma
 colorpicker
@@ -14,6 +15,7 @@ dmenu-distrotube-git
 extundelete
 google-chrome
 hack-nf-git
+iptables-nft
 mirage
 mongodb-bin
 msodbcsql
@@ -21,6 +23,7 @@ mssql-server
 mssql-tools
 neofetch
 netcoredbg
+nitrogen
 nodejs-live-server
 oh-my-zsh-git
 openvpn3
@@ -37,7 +40,6 @@ ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k
 upscayl-bin
 ventoy-bin
-visual-studio-code-bin
 warp-gui
 warp-terminal
 warpgui-bin

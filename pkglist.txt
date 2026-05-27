@@ -59,6 +59,7 @@ lazygit
 lib32-libxcomposite
 lib32-libxrandr
 lib32-openal
+libgcc
 libguestfs
 libpulse
 libreoffice-still

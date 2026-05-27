@@ -21,10 +21,6 @@ docker
 docker-buildx
 docker-compose
 dolphin
-dotnet-runtime
-dotnet-runtime-8.0
-dotnet-sdk
-dotnet-sdk-8.0
 duf
 dunst
 efibootmgr

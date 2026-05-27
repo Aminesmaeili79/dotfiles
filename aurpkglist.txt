@@ -21,7 +21,6 @@ msodbcsql
 mssql-server
 mssql-tools
 neofetch
-netcoredbg
 nitrogen
 nodejs-live-server
 oh-my-zsh-git

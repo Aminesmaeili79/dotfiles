@@ -1,3 +1,4 @@
+antigravity
 apple-music-desktop
 arduino-ide
 asusctl

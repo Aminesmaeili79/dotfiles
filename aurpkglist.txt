@@ -1,4 +1,5 @@
 antigravity
+antigravity-ide
 apple-music-desktop
 arduino-ide
 asusctl

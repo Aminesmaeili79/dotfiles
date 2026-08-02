@@ -1,7 +1,6 @@
 antigravity
 antigravity-ide
 apple-music-desktop
-arduino-ide
 asusctl
 awsvpnclient
 beekeeper-studio
@@ -38,7 +37,6 @@ spotify
 teams
 ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k
-upscayl-bin
 ventoy-bin
 visual-studio-code-bin
 warp-gui

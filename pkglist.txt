@@ -35,6 +35,7 @@ foremost
 freerdp
 fuse-overlayfs
 fzf
+gamescope
 git
 git-delta
 gnome-disk-utility

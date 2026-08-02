@@ -14,7 +14,6 @@ dmenu-distrotube-git
 extundelete
 google-chrome
 hack-nf-git
-iptables-nft
 mirage
 mongodb-bin
 msodbcsql

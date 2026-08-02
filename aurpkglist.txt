@@ -27,7 +27,6 @@ openvpn3
 outlook-for-linux-bin
 persian-fonts
 playit-bin
-playit-bin-debug
 postman-bin
 rider
 simplescreenrecorder

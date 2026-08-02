@@ -68,7 +68,6 @@ libusb-compat
 libva-intel-driver
 linux
 linux-firmware
-logrotate
 maim
 mariadb
 mono

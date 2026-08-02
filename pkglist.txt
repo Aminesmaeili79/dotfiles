@@ -59,6 +59,7 @@ konsole
 lazygit
 lib32-libxcomposite
 lib32-libxrandr
+lib32-mangohud
 lib32-openal
 libgcc
 libguestfs
@@ -69,6 +70,7 @@ libva-intel-driver
 linux
 linux-firmware
 maim
+mangohud
 mariadb
 mono
 mpv

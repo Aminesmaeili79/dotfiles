@@ -219,3 +219,5 @@ alias awsvpn='cd /opt/awsvpnclient/ && ./"AWS VPN Client"'
 
 export ELECTRON_ENABLE_LOGGING=true
 export ELECTRON_OZONE_PLATFORM_HINT=x11
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

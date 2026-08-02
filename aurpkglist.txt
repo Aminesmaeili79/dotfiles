@@ -3,7 +3,6 @@ antigravity-ide
 apple-music-desktop
 asusctl
 awsvpnclient
-beekeeper-studio
 bottles
 bridge-utils
 cewl-git

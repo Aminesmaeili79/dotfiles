@@ -223,3 +223,4 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 alias gmovello="GIT_SSH_COMMAND='ssh -i ~/.ssh/movello -o IdentitiesOnly=yes'"
+export PATH="$HOME/.local/bin:$PATH"

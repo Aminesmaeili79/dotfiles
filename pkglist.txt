@@ -118,6 +118,7 @@ stow
 stylua
 swtpm
 teamspeak3
+teamspeak3-server
 telegram-desktop
 testdisk
 thefuck

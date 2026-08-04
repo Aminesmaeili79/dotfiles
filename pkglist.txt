@@ -116,6 +116,9 @@ rofi
 slop
 smartmontools
 sof-firmware
+spotify-launcher
+spotify-player
+spotifyd
 steam
 stow
 stylua

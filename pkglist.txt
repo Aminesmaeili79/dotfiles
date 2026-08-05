@@ -80,6 +80,7 @@ neovim
 nmap
 npm
 nvidia-open
+nvidia-settings
 nvidia-utils
 nvm
 obs-studio

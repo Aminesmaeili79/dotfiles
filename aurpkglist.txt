@@ -33,6 +33,7 @@ simplescreenrecorder
 simplescreenrecorder-debug
 slack-desktop
 spotify
+supergfxctl
 teams
 ttf-joypixels
 ttf-meslo-nerd-font-powerlevel10k

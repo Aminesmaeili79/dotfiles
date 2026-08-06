@@ -92,7 +92,6 @@ opencl-nvidia
 openssh
 os-prober
 papirus-icon-theme
-patchelf
 pavucontrol
 picom
 pipewire
@@ -115,6 +114,7 @@ reaver
 reflector
 remmina
 rofi
+shotcut
 slop
 smartmontools
 sof-firmware

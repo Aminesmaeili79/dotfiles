@@ -1,7 +1,6 @@
 alacritty
 alsa-tools
 alsa-utils
-apr-util
 archiso
 ark
 arp-scan
@@ -93,7 +92,6 @@ opencl-nvidia
 openssh
 os-prober
 papirus-icon-theme
-patchelf
 pavucontrol
 picom
 pipewire
@@ -112,8 +110,6 @@ python-pip
 python-pygments
 python-pyqt5
 qemu-base
-qt5-multimedia
-qt5-quickcontrols2
 reaver
 reflector
 remmina

@@ -23,6 +23,7 @@ docker-compose
 dolphin
 duf
 dunst
+edk2-aarch64
 efibootmgr
 exploitdb
 eza
@@ -110,6 +111,7 @@ python-pip
 python-pygments
 python-pyqt5
 qemu-base
+qemu-system-aarch64
 reaver
 reflector
 remmina

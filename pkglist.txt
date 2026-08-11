@@ -2,6 +2,7 @@ alacritty
 alsa-tools
 alsa-utils
 archiso
+ardour
 ark
 arp-scan
 autotiling

@@ -117,6 +117,7 @@ reaver
 reflector
 remmina
 rofi
+sbctl
 shotcut
 slop
 smartmontools

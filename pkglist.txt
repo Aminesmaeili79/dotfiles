@@ -56,6 +56,7 @@ intel-media-driver
 intel-ucode
 iptables
 iwd
+jq
 kate
 konsole
 lazygit

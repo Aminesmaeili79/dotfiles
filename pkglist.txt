@@ -39,6 +39,7 @@ fzf
 gamescope
 git
 git-delta
+github-cli
 gnome-disk-utility
 gobuster
 godot
@@ -63,7 +64,6 @@ lazygit
 lib32-libxcomposite
 lib32-libxrandr
 lib32-mangohud
-lib32-openal
 libgcc
 libguestfs
 libpulse
@@ -159,7 +159,6 @@ wireguard-tools
 wireless_tools
 wireplumber
 wireshark-qt
-wlroots0.18
 wpa_supplicant
 xclip
 xdg-utils

@@ -15,6 +15,7 @@ dmenu-distrotube-git
 extundelete
 google-chrome
 hack-nf-git
+lib32-openal
 mirage
 mongodb-bin
 msodbcsql
@@ -43,6 +44,7 @@ visual-studio-code-bin
 warp-gui
 warp-terminal
 warpgui-bin
+wlroots0.18
 woeusb
 xf86-video-vmware
 xwinwrap-git

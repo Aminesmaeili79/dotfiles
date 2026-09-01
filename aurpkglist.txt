@@ -12,10 +12,13 @@ colorpicker
 cursor-bin
 debtap
 dmenu-distrotube-git
+electron-castlab-bin
+electron-castlab-bin-debug
 extundelete
 google-chrome
 hack-nf-git
 lib32-openal
+libelectron
 mirage
 mongodb-bin
 msodbcsql

@@ -14,6 +14,7 @@ bluez
 bluez-utils
 brightnessctl
 bully
+cage
 calibre
 dbeaver
 dhcpcd
@@ -46,6 +47,8 @@ gnome-disk-utility
 gobuster
 godot
 gparted
+greetd
+greetd-regreet
 gst-plugin-pipewire
 hashcat
 hcxdumptool

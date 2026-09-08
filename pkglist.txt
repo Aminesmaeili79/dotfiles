@@ -145,6 +145,7 @@ thunar
 tmux
 torbrowser-launcher
 tree
+ttf-jetbrains-mono-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 turbostat
@@ -166,6 +167,7 @@ wireguard-tools
 wireless_tools
 wireplumber
 wireshark-qt
+woff2-font-awesome
 wpa_supplicant
 xclip
 xdg-utils

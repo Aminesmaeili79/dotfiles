@@ -171,6 +171,7 @@ wireshark-qt
 woff2-font-awesome
 wpa_supplicant
 xclip
+xdg-desktop-portal-hyprland
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati

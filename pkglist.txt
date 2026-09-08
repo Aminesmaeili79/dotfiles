@@ -47,6 +47,7 @@ gobuster
 godot
 gparted
 gst-plugin-pipewire
+gtk-layer-shell
 hashcat
 hcxdumptool
 hcxtools

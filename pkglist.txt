@@ -51,6 +51,8 @@ hashcat
 hcxdumptool
 hcxtools
 htop
+hyprland
+hyprpaper
 i3-wm
 i3blocks
 i3lock
@@ -131,6 +133,7 @@ spotifyd
 steam
 stow
 stylua
+swaync
 swtpm
 teamspeak3
 teamspeak3-server
@@ -153,6 +156,7 @@ virt-manager
 virt-viewer
 vulkan-intel
 vulkan-radeon
+waybar
 wayland-protocols
 wget
 wifite

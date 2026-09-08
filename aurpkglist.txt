@@ -12,7 +12,6 @@ cursor-bin
 debtap
 dmenu-distrotube-git
 eww-git
-eww-git-debug
 extundelete
 google-chrome
 hack-nf-git

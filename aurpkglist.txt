@@ -29,6 +29,7 @@ oh-my-zsh-git
 openvpn3
 outlook-for-linux-bin
 persian-fonts
+pixie-sddm-git
 playit-bin
 postman-bin
 rider

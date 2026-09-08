@@ -51,8 +51,10 @@ hashcat
 hcxdumptool
 hcxtools
 htop
+hypridle
 hyprland
 hyprlauncher
+hyprlock
 hyprpaper
 i3-wm
 i3blocks

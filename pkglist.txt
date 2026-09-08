@@ -134,6 +134,7 @@ spotifyd
 steam
 stow
 stylua
+swaybg
 swaync
 swtpm
 teamspeak3

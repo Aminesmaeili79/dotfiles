@@ -1,7 +1,6 @@
 antigravity
 antigravity-ide
 apple-music-desktop
-asusctl
 awsvpnclient
 bottles
 bridge-utils

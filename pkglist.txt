@@ -5,6 +5,7 @@ archiso
 ardour
 ark
 arp-scan
+asusctl
 autotiling
 base
 base-devel

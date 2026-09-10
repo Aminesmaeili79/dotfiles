@@ -50,6 +50,7 @@ gparted
 greetd
 greetd-regreet
 gst-plugin-pipewire
+gucharmap
 hashcat
 hcxdumptool
 hcxtools

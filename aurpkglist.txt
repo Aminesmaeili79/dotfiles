@@ -53,6 +53,5 @@ xf86-video-vmware
 xwinwrap-git
 yay
 yay-debug
-zed-git
 zsh-theme-powerlevel10k-git
 zsh-vi-mode

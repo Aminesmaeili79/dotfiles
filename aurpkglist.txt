@@ -32,8 +32,6 @@ persian-fonts
 pixie-sddm-git
 playit-bin
 postman-bin
-python-imageio-ffmpeg
-python-screeninfo
 rider
 simplescreenrecorder
 simplescreenrecorder-debug
@@ -48,6 +46,7 @@ visual-studio-code-bin
 warp-gui
 warp-terminal
 warpgui-bin
+waypaper
 wlroots0.18
 woeusb
 xf86-video-vmware

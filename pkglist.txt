@@ -121,6 +121,7 @@ postgresql
 proton-vpn-gtk-app
 python-openai-whisper
 python-pip
+python-poetry-core
 python-pygments
 python-pyqt5
 qemu-base

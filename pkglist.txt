@@ -119,7 +119,6 @@ pnpm
 podman
 postgresql
 proton-vpn-gtk-app
-python-imageio
 python-openai-whisper
 python-pip
 python-pygments

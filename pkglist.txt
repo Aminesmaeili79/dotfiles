@@ -223,6 +223,7 @@ xorg-xwud
 xterm
 yarn
 zaproxy
+zed
 zip
 zoxide
 zram-generator

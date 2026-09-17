@@ -124,6 +124,8 @@ python-openai-whisper
 python-pip
 python-pygments
 python-pyqt5
+python-srt
+python-tabulate
 qemu-base
 reaver
 reflector

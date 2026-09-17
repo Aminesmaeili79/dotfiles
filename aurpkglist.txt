@@ -32,6 +32,7 @@ persian-fonts
 pixie-sddm-git
 playit-bin
 postman-bin
+python-edge-tts
 rider
 simplescreenrecorder
 simplescreenrecorder-debug
